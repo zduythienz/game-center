@@ -12,6 +12,7 @@ module.exports = {
     'styled-components',
     '@babel/plugin-proposal-class-properties',
     '@babel/plugin-syntax-dynamic-import',
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
   ],
   env: {
     production: {
@@ -20,7 +21,7 @@ module.exports = {
         'lodash',
         'transform-react-remove-prop-types',
         '@babel/plugin-transform-react-inline-elements',
-        '@babel/plugin-transform-react-constant-elements',
+        '@babel/plugin-transform-react-constant-elements'
       ],
     },
     test: {
